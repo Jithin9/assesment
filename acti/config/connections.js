@@ -82,7 +82,7 @@ module.exports.connections = {
     password: 'qazxsw21',
     database: '2'
   }
-
+//this config has some issues
 
   /***************************************************************************
   *                                                                          *

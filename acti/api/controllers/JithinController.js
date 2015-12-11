@@ -29,7 +29,7 @@ module.exports = {
       console.log("User created (using model jithin): " +  jithin.name);
       return res.redirect('/');
     })
-
+    //creates a new user
   },
 
 register: function (req,res){
@@ -47,7 +47,7 @@ res.view();
 
   },
   attempt: function(req,res){
-
+//attempt to login
     if(!req.param('email') || !req.param('password')){
       res.redirect('jithin/login');
     }
@@ -87,8 +87,6 @@ home: function(req,res)
   {
     res.redirect('/');
   }
-
-
 
 };
 

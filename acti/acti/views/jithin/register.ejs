@@ -1,0 +1,20 @@
+<h1>Register</h1>
+<hr>
+<form action="/jithin/create" method="POST" id="register">
+
+  <label name="name">Name:</label>
+  <input name="name" type="text"/>
+  <br/>
+
+  <label name="email">Email:</label>
+  <input name="email" type="text"/>
+  <br/>
+
+  <label name="password" >Password:</label>
+  <input name="password" id="password" type="password"/>
+  <br/>
+  <!--confirmation field used for front end validation, can be extended to name being alphanumeric and so on-->
+ <label name="confirmation">Retype Password:</label>
+ <input name="confirmation" type="password"><br>
+  <input type="submit"/>
+</form>
